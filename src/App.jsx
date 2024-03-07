@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="w-full max-w-6xl mx-auto mt-10 px-5 pb-10">
+      <div className="w-full max-w-6xl mx-auto mt-20 px-5 pb-10">
         <h2 className="font-bold my-5">Incompleted Tasks</h2>
         <div className="grid grid-cols-12 gap-5">
           {incompletedTasks &&
